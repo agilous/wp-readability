@@ -1,0 +1,21 @@
+body {
+	background: #F4EED9;
+	color: #1D1916;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+#top {
+    height: 40px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#topnav {
+	height: 40px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
