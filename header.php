@@ -13,22 +13,19 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-	<div id="top">
-		<div id="topnav">
-			<ul class="topmenu">
-				<li><a href="<?php echo get_settings('home'); ?>"><?php _e('Home'); ?></a></li>
-				<?php wp_list_pages('sort_column=id&depth=1&title_li='); ?>
-				<li><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/rss.gif" alt="rssfeed" /></a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="page">
-		<div id="header">
-			<div id="blogname">
-				<h2><a href="<?php echo get_settings('home'); ?>/"><?php bloginfo('name'); ?></a></h2>
-				<p>&nbsp;&nbsp;<?php bloginfo('description'); ?></p>
-			</div>
-		</div>
-		<div id="wrapper">
+		<div class="page">
+			<div class="container">
+				<div class="nav-top">
+					<ul class="nav-top-ul">
+						<li><a href="<?php echo get_settings('home'); ?>"><?php _e('Home'); ?></a></li>
+						<?php wp_list_pages('sort_column=id&depth=1&title_li='); ?>
+						<li><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/rss.gif" alt="rssfeed" /></a></li>
+					</ul>
+				</div>
+				<div class="header">
+					<h2><a href="<?php echo get_settings('home'); ?>/"><?php bloginfo('name'); ?></a></h2>
+					<p>&nbsp;&nbsp;<?php bloginfo('description'); ?></p>
+				</div>
+				<div class="content">
 
 <!-- END HEADER -->

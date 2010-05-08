@@ -8,24 +8,74 @@ Author URI: http://agilo.us/
 Tags: readability, simplified, simple
 */
 
+a {
+    color: #1158B3;
+    text-decoration: none;  
+}
+
 body {
 	background: #F4EED9;
-	color: #1D1916;
+    color: #1D1916;
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
-#top {
-    height: 40px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
+div.page {
+	width: 100%;
 }
 
-#topnav {
-	height: 40px;
-    width: 800px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
+div.container {
+	margin-left: 10%;
+	width: 80%;
+}
+
+div.header {
+	margin: 2% 2% 1% 2%;
+	padding: 2%;
+}
+
+div.main {
+	float: left;
+	margin: 1% 1% 1% 2%;
+	padding: 2%;
+	width: 62%;
+}
+
+div.nav-top {
+	margin: 0% 2% 1% 2%;
+	padding: 2%;
+}
+
+
+div.sidebar {
+	float: none;
+	margin: 1% 2% 1% 1%;
+	padding: 2%;
+	width: 24%;
+}
+
+div.footer {
+	float: left;
+	margin: 1% 2% 0% 2%;
+	padding: 2%;
+	width: 92%;
+}
+
+div.footer p {
+	text-align: center;
+}
+
+p {
+	line-height: 120%;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+ul.nav-top-ul {
+	float: left;
+	list-style-type: none;
+}
+
+ul.nav-top-ul li {
+	float: left;
+	margin-right: 20px;
 }
