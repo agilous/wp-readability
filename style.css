@@ -29,8 +29,14 @@ div.container {
 }
 
 div.header {
+	font-size: 140%;
 	margin: 2% 2% 1% 2%;
 	padding: 2%;
+}
+
+div.header h2 {
+	font-size: 120%;
+	display: inline;
 }
 
 div.main {

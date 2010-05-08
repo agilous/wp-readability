@@ -23,8 +23,7 @@
 					</ul>
 				</div>
 				<div class="header">
-					<h2><a href="<?php echo get_settings('home'); ?>/"><?php bloginfo('name'); ?></a></h2>
-					<p>&nbsp;&nbsp;<?php bloginfo('description'); ?></p>
+					<h2><a href="<?php echo get_settings('home'); ?>/"><?php bloginfo('name'); ?></a></h2>&nbsp;>>&nbsp;<?php bloginfo('description'); ?>
 				</div>
 				<div class="content">
 
