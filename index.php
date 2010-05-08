@@ -20,7 +20,7 @@ the_content($continue_text);
 } ?>
 </div>
 
-<p><?php the_time(__('F jS, Y')) ?> (<?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?>)<br />
+<p class="post-meta"><?php the_time(__('F jS, Y')) ?> (<?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?>)<br />
 Category: <?php the_category(', ') ?><br />
 Tags: <?php the_tags('', ', ', ''); ?></p>
 

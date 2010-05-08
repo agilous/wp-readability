@@ -76,6 +76,10 @@ p {
 	text-align: justify;
 }
 
+p.post-meta {
+	font-size: 80%;
+}
+
 ul.nav-top-ul {
 	float: left;
 	list-style-type: none;
