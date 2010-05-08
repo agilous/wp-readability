@@ -31,8 +31,7 @@ Tags: <?php the_tags('', ', ', ''); ?></p>
 <?php endwhile; ?>
 
 <div>
-<div><?php posts_nav_link('','',__('&laquo; Previous','')) ?></div>
-<div><?php posts_nav_link('',__('Next &raquo;',''),'') ?></div>
+<div><?php posts_nav_link('','',__('Previous','')) ?> | <?php posts_nav_link('',__('Next',''),'') ?></div>
 </div>
 
 
