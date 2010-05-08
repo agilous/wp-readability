@@ -26,6 +26,8 @@ Tags: <?php the_tags('', ', ', ''); ?></p>
 
 </div>
 
+<hr>
+
 <?php endwhile; ?>
 
 <div>
