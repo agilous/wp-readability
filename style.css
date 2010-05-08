@@ -70,6 +70,10 @@ div.footer p {
 	text-align: center;
 }
 
+div.post h1 {
+	font-size: 160%;
+}
+
 p {
 	line-height: 120%;
 	font-size: 1.2em;
