@@ -80,6 +80,10 @@ p {
 	text-align: justify;
 }
 
+div.main p.four04 {
+	text-align: center;
+}
+
 p.post-meta {
 	font-size: 80%;
 }

@@ -1,8 +1,7 @@
 <?php get_header(); ?>
-<div id="content">
-<h2><?php _e('Error 404. Document not found.'); ?></h2>
-<div><a href="<?php echo get_settings('home'); ?>"><?php _e('Home...'); ?></a></div>
-</div>
+
+<div class="main">
+	<p class="four04"><?php _e('Error 404. Document not found.'); ?></p>
 </div>
 
 <?php get_footer(); ?>
